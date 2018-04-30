@@ -1,0 +1,50 @@
+<h1>~메일쓰기~</h1>
+
+<br></br>
+<form name="contactform" method="POST" action="/home/result">
+<table width="450px">
+<tr>
+ <td valign="top">
+  <label for="first_name">보내는 사람</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="bone" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="last_name">받는 사람</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="bada" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">제목</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="zemo" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">내용</label>
+ </td>
+ <td valign="top">
+  <textarea  name="neono" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">
+ </td>
+</tr>
+</table>
+</form>
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">첨부파일</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+</form>
